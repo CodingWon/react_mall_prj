@@ -17,7 +17,7 @@ function ReadPage() {
 
     const moveToModify = (tno) => {
         navigate({
-                    pathname:`/todo/modfiy/${tno}`,
+                    pathname:`/todo/modify/${tno}`,
                     search:`?page=${page}&size=${size}`
                 })
     }
